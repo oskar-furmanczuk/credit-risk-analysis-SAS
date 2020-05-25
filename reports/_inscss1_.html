@@ -1,0 +1,1684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1250">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.aftercaption
+{
+  background-color: background;
+  border-spacing: 0px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: menu;
+  border: 0px solid menutext;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: menutext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: background;
+  border-spacing: 0px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: background;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: background;
+  border-spacing: 0px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: activecaption;
+  border-spacing: 0px;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: background;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: background;
+  border-spacing: 0px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: menu;
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 0px;
+}
+.contentprocname
+{
+  background-color: menu;
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 0px;
+}
+.contents
+{
+  background-color: menu;
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 5px;
+  margin-right: 2px;
+}
+.contentsdate
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.continued
+{
+  background-color: background;
+  border-spacing: 0px;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: menu;
+  color: menutext;
+  font-family: 'Courier New', monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: menu;
+  color: menutext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: menu;
+  color: menutext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:background
+}
+a:visited {
+color:activecaption
+}
+a:active {
+color:activecaption
+}
+.errorbanner
+{
+  background-color: highlighttext;
+  color: highlight;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontent
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: background;
+  border: 1pt solid #000000;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: highlighttext;
+  color: highlight;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontent
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footer
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: background;
+  border: 1px solid menutext;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.index
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexitem
+{
+  color: menutext;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: menu;
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 0px;
+}
+.indextitle
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: highlighttext;
+  color: highlight;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontent
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: appworkspace;
+  border: 1px solid menutext;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: background;
+  border-spacing: 0px;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: menutext;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: menu;
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 0px;
+}
+.pagesprocname
+{
+  background-color: menu;
+  color: menutext;
+  font-family: menu;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 0px;
+}
+.pagestitle
+{
+  background-color: menu;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.paragraph
+{
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: background;
+  color: activeborder;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: activecaption;
+  color: captiontext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter10
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter2
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter3
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter4
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter5
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter6
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter7
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter8
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemfooter9
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  background-color: appworkspace;
+  border: 1px solid menutext;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: menutext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: background;
+  color: activeborder;
+  font-family: Arial, sans-serif;
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warnbanner
+{
+  background-color: highlighttext;
+  color: highlight;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontent
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: Arial, sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: highlight;
+  color: highlighttext;
+  font-family: 'Courier New', monospace;
+  font-size: small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" bgproperties="fixed" class="body">
+<script>function play(src){}</script>
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Zmienne z grupy act_ o najwiekszej wspolzaleznosci ze zmienna vin3</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="menutext" summary="Procedure Print: Zbiór WYJ.ACT_5">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="l header" scope="col">COL1</th>
+<th class="l header" scope="col">COL2</th>
+<th class="l header" scope="col">COL3</th>
+<th class="r header" scope="col">cramer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">ACT_CALL_ACP5Y</td>
+<td class="l data">not missing(ACT_CALL_ACP5Y) and ACT_CALL_ACP5Y &lt;= 13</td>
+<td class="l data">13 &lt; ACT_CALL_ACP5Y</td>
+<td class="l data">&nbsp;</td>
+<td class="r data">0.26149</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">ACT9_N_GOOD_DAYS</td>
+<td class="l data">not missing(ACT9_N_GOOD_DAYS) and ACT9_N_GOOD_DAYS &lt;= 1</td>
+<td class="l data">1 &lt; ACT9_N_GOOD_DAYS &lt;= 3</td>
+<td class="l data">3 &lt; ACT9_N_GOOD_DAYS</td>
+<td class="r data">0.24489</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">ACT3_N_GOOD_DAYS</td>
+<td class="l data">not missing(ACT3_N_GOOD_DAYS) and ACT3_N_GOOD_DAYS &lt;= 0</td>
+<td class="l data">0 &lt; ACT3_N_GOOD_DAYS &lt;= 1</td>
+<td class="l data">1 &lt; ACT3_N_GOOD_DAYS</td>
+<td class="r data">0.24092</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">ACT6_N_GOOD_DAYS</td>
+<td class="l data">not missing(ACT6_N_GOOD_DAYS) and ACT6_N_GOOD_DAYS &lt;= 0</td>
+<td class="l data">0 &lt; ACT6_N_GOOD_DAYS &lt;= 1</td>
+<td class="l data">1 &lt; ACT6_N_GOOD_DAYS</td>
+<td class="r data">0.24089</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">ACT12_N_GOOD_DAYS</td>
+<td class="l data">not missing(ACT12_N_GOOD_DAYS) and ACT12_N_GOOD_DAYS &lt;= 2</td>
+<td class="l data">2 &lt; ACT12_N_GOOD_DAYS &lt;= 4</td>
+<td class="l data">4 &lt; ACT12_N_GOOD_DAYS</td>
+<td class="r data">0.23887</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<hr/>
+<a name="IDX1"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Zmienne z grupy agr_ o najwiekszej wspolzaleznosci ze zmienna vin3</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="menutext" summary="Procedure Print: Zbiór WYJ.AGR5">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="l header" scope="col">COL1</th>
+<th class="l header" scope="col">COL2</th>
+<th class="l header" scope="col">COL3</th>
+<th class="r header" scope="col">cramer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">AGR3_MEAN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGR3_MEAN_CMAXA_DAYS) and AGR3_MEAN_CMAXA_DAYS &lt;= 14</td>
+<td class="l data">14 &lt; AGR3_MEAN_CMAXA_DAYS &lt;= 14.666666667</td>
+<td class="l data">14.666666667 &lt; AGR3_MEAN_CMAXA_DAYS</td>
+<td class="r data">0.23277</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">AGR3_MIN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGR3_MIN_CMAXA_DAYS) and AGR3_MIN_CMAXA_DAYS &lt;= 13</td>
+<td class="l data">13 &lt; AGR3_MIN_CMAXA_DAYS &lt;= 14</td>
+<td class="l data">14 &lt; AGR3_MIN_CMAXA_DAYS</td>
+<td class="r data">0.23205</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">AGR3_MAX_CMAXA_DUE</td>
+<td class="l data">not missing(AGR3_MAX_CMAXA_DUE) and AGR3_MAX_CMAXA_DUE &lt;= 0</td>
+<td class="l data">0 &lt; AGR3_MAX_CMAXA_DUE</td>
+<td class="l data">&nbsp;</td>
+<td class="r data">0.20522</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">AGR3_MEAN_CMAXA_DUE</td>
+<td class="l data">not missing(AGR3_MEAN_CMAXA_DUE) and AGR3_MEAN_CMAXA_DUE &lt;= 0.3333333333</td>
+<td class="l data">0.3333333333 &lt; AGR3_MEAN_CMAXA_DUE</td>
+<td class="l data">&nbsp;</td>
+<td class="r data">0.20522</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">AGR6_MEAN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGR6_MEAN_CMAXA_DAYS) and AGR6_MEAN_CMAXA_DAYS &lt;= 14.333333333</td>
+<td class="l data">14.333333333 &lt; AGR6_MEAN_CMAXA_DAYS &lt;= 14.666666667</td>
+<td class="l data">14.666666667 &lt; AGR6_MEAN_CMAXA_DAYS</td>
+<td class="r data">0.20456</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<hr/>
+<a name="IDX2"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Zmienne z grupy ags o najwiekszej wspolzaleznosci ze zmienna vin3</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="menutext" summary="Procedure Print: Zbiór WYJ.AGS5">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="l header" scope="col">COL1</th>
+<th class="l header" scope="col">COL2</th>
+<th class="l header" scope="col">COL3</th>
+<th class="r header" scope="col">cramer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">AGS12_MEAN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGS12_MEAN_CMAXA_DAYS) and AGS12_MEAN_CMAXA_DAYS &lt;= 14.571428571</td>
+<td class="l data">14.571428571 &lt; AGS12_MEAN_CMAXA_DAYS &lt;= 14.8</td>
+<td class="l data">14.8 &lt; AGS12_MEAN_CMAXA_DAYS</td>
+<td class="r data">0.27010</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">AGS9_MEAN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGS9_MEAN_CMAXA_DAYS) and AGS9_MEAN_CMAXA_DAYS &lt;= 14.5</td>
+<td class="l data">14.5 &lt; AGS9_MEAN_CMAXA_DAYS &lt;= 14.875</td>
+<td class="l data">14.875 &lt; AGS9_MEAN_CMAXA_DAYS</td>
+<td class="r data">0.26927</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">AGS6_MEAN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGS6_MEAN_CMAXA_DAYS) and AGS6_MEAN_CMAXA_DAYS &lt;= 14.4</td>
+<td class="l data">14.4 &lt; AGS6_MEAN_CMAXA_DAYS &lt;= 14.8</td>
+<td class="l data">14.8 &lt; AGS6_MEAN_CMAXA_DAYS</td>
+<td class="r data">0.26480</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">AGS9_MIN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGS9_MIN_CMAXA_DAYS) and AGS9_MIN_CMAXA_DAYS &lt;= 12</td>
+<td class="l data">12 &lt; AGS9_MIN_CMAXA_DAYS &lt;= 13</td>
+<td class="l data">13 &lt; AGS9_MIN_CMAXA_DAYS</td>
+<td class="r data">0.26244</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">AGS12_MIN_CMAXA_DAYS</td>
+<td class="l data">not missing(AGS12_MIN_CMAXA_DAYS) and AGS12_MIN_CMAXA_DAYS &lt;= 12</td>
+<td class="l data">12 &lt; AGS12_MIN_CMAXA_DAYS &lt;= 13</td>
+<td class="l data">13 &lt; AGS12_MIN_CMAXA_DAYS</td>
+<td class="r data">0.26051</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<hr/>
+<a name="IDX3"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Zmienne z grupy app o najwiekszej wspolzaleznosci ze zmienna vin3</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="menutext" summary="Procedure Print: Zbiór WYJ.APP_5">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="l header" scope="col">COL1</th>
+<th class="l header" scope="col">COL2</th>
+<th class="l header" scope="col">COL3</th>
+<th class="r header" scope="col">cramer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data">APP_LOAN_AMOUNT</td>
+<td class="l data">not missing(APP_LOAN_AMOUNT) and APP_LOAN_AMOUNT &lt;= 2856</td>
+<td class="l data">2856 &lt; APP_LOAN_AMOUNT &lt;= 4980</td>
+<td class="l data">4980 &lt; APP_LOAN_AMOUNT</td>
+<td class="r data">0.20086</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data">APP_INSTALLMENT</td>
+<td class="l data">not missing(APP_INSTALLMENT) and APP_INSTALLMENT &lt;= 144</td>
+<td class="l data">144 &lt; APP_INSTALLMENT &lt;= 207</td>
+<td class="l data">207 &lt; APP_INSTALLMENT</td>
+<td class="r data">0.16923</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data">APP_N_INSTALLMENTS</td>
+<td class="l data">not missing(APP_N_INSTALLMENTS) and APP_N_INSTALLMENTS &lt;= 12</td>
+<td class="l data">12 &lt; APP_N_INSTALLMENTS</td>
+<td class="l data">&nbsp;</td>
+<td class="r data">0.14955</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data">APP_INCOME</td>
+<td class="l data">not missing(APP_INCOME) and APP_INCOME &lt;= 818</td>
+<td class="l data">818 &lt; APP_INCOME &lt;= 4134</td>
+<td class="l data">4134 &lt; APP_INCOME</td>
+<td class="r data">0.08398</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">APP_NUMBER_OF_CHILDREN</td>
+<td class="l data">not missing(APP_NUMBER_OF_CHILDREN) and APP_NUMBER_OF_CHILDREN &lt;= 0</td>
+<td class="l data">0 &lt; APP_NUMBER_OF_CHILDREN &lt;= 1</td>
+<td class="l data">1 &lt; APP_NUMBER_OF_CHILDREN</td>
+<td class="r data">0.07342</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
